@@ -1,0 +1,41 @@
+{
+    "name": "molajoplugins/page",
+    "description": "Page Plugin for use with the Molajo Plugin Framework",
+    "version": "1.0.0",
+    "type": "molajo-plugin",
+    "keywords": [
+        "plugin",
+        "molajo",
+        "page"
+    ],
+    "homepage": "http://github.com/MolajoPlugins/Page",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@molajo.org",
+            "homepage": "http://AmyStephen.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/MolajoPlugins/Page/issues",
+        "forum": "https://groups.google.com/forum/#!forum/molajo",
+        "irc": "irc://irc.freenode.org/molajo",
+        "source": "https://github.com/MolajoPlugins/Page"
+    },
+    "require": {
+        "molajo/plugins": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Molajo\\Plugins\\Page\\": "/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
